@@ -79,7 +79,9 @@ function Player() {
   );
 
   useEffect(() => {
-    document.title = `${songInfo?.name} · ${songInfo?.artists?.[0]?.name}`;
+    document.title = songInfo
+      ? `${songInfo?.name} · ${songInfo?.artists?.[0]?.name}`
+      : "Spotify clone";
   }, [songInfo]);
 
   return (
