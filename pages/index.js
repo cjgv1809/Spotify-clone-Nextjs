@@ -9,7 +9,10 @@ export default function Home() {
     <div className="bg-black h-screen overflow-hidden font-sans">
       <Head>
         <title>Spotify clone</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png"
+        />
       </Head>
 
       <main className="flex">
