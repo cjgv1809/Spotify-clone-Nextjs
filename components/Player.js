@@ -99,7 +99,9 @@ function Player() {
         />
         {songInfo && (
           <div>
-            <h3 className="font-bold truncate w-72">{songInfo?.name}</h3>
+            <h3 className="font-bold truncate w-16 md:w-40">
+              {songInfo?.name}
+            </h3>
             <p className="font-light text-gray-400">
               {songInfo?.artists?.[0]?.name}
             </p>
@@ -111,7 +113,7 @@ function Player() {
       <div className="flex items-center justify-evenly">
         <SwitchHorizontalIcon className="button" />
         <RewindIcon
-          onClick={() => spotifyApi.skipToPrevious()} // The API is not working properly
+          // onClick={() => spotifyApi.skipToPrevious()} // The API is not working properly
           className="button"
         />
 
@@ -123,7 +125,7 @@ function Player() {
 
         <FastForwardIcon
           className="button"
-          onClick={() => spotifyApi.skipToNext()} // The API is not working properly
+          // onClick={() => spotifyApi.skipToNext()} // The API is not working properly
         />
         <ReplyIcon className="button" />
       </div>

@@ -32,10 +32,12 @@ function Song({ track, order }) {
           alt=""
         />
         <div>
-          <p className="text-white font-semibold truncate w-24 md:w-36 lg:w-64">
+          <p className="text-white font-semibold truncate w-20 md:w-36 lg:w-64">
             {track?.track.name}
           </p>
-          <p className="w-40">{track?.track.artists?.[0]?.name}</p>
+          <p className="w-20 md:w-40 truncate">
+            {track?.track.artists?.[0]?.name}
+          </p>
         </div>
       </div>
 
