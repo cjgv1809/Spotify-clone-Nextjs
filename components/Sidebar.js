@@ -30,9 +30,6 @@ function Sidebar() {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
 
-  console.log(playlists);
-  console.log("You picked playlist >>>>>", playlistId);
-
   return (
     <div className="text-gray-400 p-5 text-xs lg:text-sm border-r border-gray-900 overflow-y-scroll scrollbar-hide h-screen w-1/5 hidden md:inline-flex">
       <div className="space-y-4">
