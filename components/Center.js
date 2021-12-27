@@ -56,7 +56,7 @@ function Center() {
     <div className="w-full text-white h-screen overflow-y-scroll scrollbar-hide pb-36">
       <header className="absolute top-5 right-8">
         <div
-          className={`flex items-center bg-gradient-to-b ${color} to-[#f7f7f7] border-white shadow-lg space-x-3 hover:opacity-80 cursor-pointer rounded-full p-1 pr-2`}
+          className={`flex items-center bg-gradient-to-b ${color} to-[#ddd] shadow-lg space-x-3 hover:opacity-80 cursor-pointer rounded-full p-1 pr-2`}
           onClick={signOut}
           title="Click to sign out"
         >
