@@ -13,10 +13,6 @@ export default function Home() {
           rel="icon"
           href="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png"
         />
-        <meta
-          name="google-site-verification"
-          content="xSk6gFznm5ngk5F-e_Acg0IkPd4klqkm8E2MFaAKAbY"
-        />
       </Head>
 
       <main className="flex">
